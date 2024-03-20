@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO WEBSITE</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap-utilities.c1                                                                                                                                                                          q       q   qqqqqqqqqqqq    q   qqqq    qq                                      1q                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              q   q   qq                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ss"> -->
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .card {
+            background-color: white;
+            border: 1px solid #eaeaea;
+            border-radius: 5px;
+            padding: 20px;
+        }
+        
+        .card .card-body {
+            text-align: center;
+        }
+        
+        .card .card-body .col-md-3 {
+            margin-bottom: 20px;
+        }
+        
+        .carp0o,d .card-body .image-container {
+            width: 200px;
+            height: 300px;
+            margin: 0 auto;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        
+        .card .card-body .image-container .circle-frame {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        
+        .card .card-body .image-container .circle-frame img {
+            height: 75px;
+            padding: 3px;
+            object-fit: cover;
+        }
+        
+        .card .card-body .column-container {
+            margin-top: 10px;
+            text-align: center;
+        }
+        
+        .text {
+            color: #fc5c63;
+        }
+        
+        .navbar-brand img {
+            height: 75px;
+            padding: 3px;
+        }
+        
+        .navbar-brand {
+            height: 60px;
+            padding: 0px;
+        }
+        
+        .text-decoration-none {
+            color: #eaeaea;
+        }
+        
+        .text-decoration-none:hover {
+            color: #fc5c63;
+            ;
+        }
+        
+        .w-30 {
+            border-radius: 5px;
+        }
+        .card-title{
+            color: #fc5c63;
+        }
+        .cards{
+            padding: 0;
+            margin: 0;
+        }
+    .topic {
+            color: #fc5c63;
+            margin-left: 40%;
+        }
+        h3{
+            color: #fc5c63;
+        }
+        .watsapp-icon{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 999;
+           }
+    </style>
+
+</head>
+
+<body>
+
+    <!--header -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="50">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img src="logo.png" alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto" id="navbarNav">
+                    <li class="nav-item" id="effect">
+                        <a href="index.html" class="link">Home</a>
+                        <a href="./ddy/goy.html" class="link">About Us</a>
+                        <a href="events.html" class="link">Events</a>
+                       
+                        <a href="contactus.html" class="link">Contact US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="dropdown-toggle" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                            <button>DONATE</button>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item " href="donate.html">DONATE CASH</a>
+                            <a class="dropdown-item " href="e_transfer.html">DONATE IN KIND</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of header -->
+
+    <!-- carousel -->
+    <div id="hero">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="m.png" class="d-block w-100 opacity-50" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="a.jpg" class="d-block w-100 opacity-50" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="master">BLEED WITH DIGNITY</h5>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="end.png" class="d-block w-100 opacity-50" alt="...">
+                    <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                    <img src="pad 2.jpg" class="d-block w-100 opacity-50" alt="...">
+                    <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                    <img src="pad2.png" class="d-block w-100 opacity-50" alt="...">
+                    <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="cards">
+        <h3 class="topic">OUR ACTIVITIES</h3>
+        <div class="card-body">
+            <div class="row">
+                
+                    <div class="card" style="width:25%">
+                        <img class="card-img-top" src="e.jpg" alt="Card image">
+                        <div class="card-body">
+                          <h4 class="card-title">Pad Distribution</h4>
+                          <p class="card-text">One of our biggest goals are to end period poverty</p>
+                        
+                        </div>
+                      </div>
+                
+                <div class="card" style="width:25%">
+                    <img class="card-img-top" src="b.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">Trainings</h4>
+                      <p class="card-text">We offer trainings on mesnstrual hygiene and emotional changes</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card" style="width:25%">
+                    <img class="card-img-top" src="c.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">Pads purchases</h4>
+                      <p class="card-text">We use the funds we recieve to purchase pads, and we make sure one girl gets a pad monthly</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card" style="width: 25%">
+                    <img class="card-img-top" src="d.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">End period poverty</h4>
+                      <p class="card-text">The thoughts of getting your menstrual needs sorted monthly such as getting pads, knowledge on handling cramp  and how to keep clean during periods brings joy overflow</p>
+                      
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of card -->
+    <div class="parallax">
+     <section class="section section-light">
+        <h2>MISSION STATEMENT</h2>
+        <P>
+
+        
+We are a non-governmental organization (NGO) dedicated to promoting menstrual health and empowering women through education, access to sanitary pads, and comprehensive support. Our mission is to break the barriers created by menstrual taboos and empower women to manage their menstrual health with dignity, thereby enhancing their overall well-being and enabling them to reach their full potential
+        </P>
+          </section>
+         <div class="pimg2">
+        <div class="ptext">
+            <span class="border-trans">
+                
+            </span>
+        </div>
+     </div>
+     <section class="section section-dark">
+        <h2>REASONS OF EXISTENCE</h2>
+        <P>
+            This NGO focused on sharing pads and educating women on menstruation was brought up to address knowledge gaps, improve access to menstrual products, empower women, challenge taboos, and advocate for policy changes. It promotes menstrual health, dignity, and equality for women and girls in society.
+        </P>
+     </section>
+        <div class="pimg3">
+        <div class="ptext">
+            <span class="border-trans">
+                
+            </span>
+        </div>
+     </div>
+     <section class="section section-dark">
+        <h2>WHAT WE DO</h2>
+        <P>
+            To accomplish the mission, the NGO can conduct educational workshops, distribute pads through partnerships and donation programs, engage in community awareness campaigns, collaborate with schools, provide mobile clinics, offer women's empowerment programs, advocate for policy changes, and establish monitoring and evaluation systems. These multifaceted approaches will ensure comprehensive menstrual health education, access to sanitary pads, empowerment of women, and systemic change towards breaking taboos and promoting menstrual health and dignity.
+        </P>
+      </section>
+      <div  class = "watsapp-icon">
+        <a href="https://wa.me/1234567890"target= "black">
+        <img src="" alt="watsapp-icon>
+    </a>
+    </div>
+
+
+
+    
+   
+    <!-- <div id="production" class="w-100">
+
+        <div class="container row justify-content-center h-100 align-items-center w-100">
+            <div class="dit col-7">
+                <h2>THE MENSTRUAL CYCLE</h2>
+                <p>The menstrual cycle is a monthly process in women where the uterus prepares for potential pregnancy. It usually lasts around 28 days but can vary between 21 and 35 days. There are four phases: menstruation, follicular phase, ovulation,
+                    and luteal phase. Menstruation is when the uterus lining is shed for about 3-7 days. The follicular phase follows, during which an egg matures in the ovary. Ovulation happens around day 14, when the mature egg is released and pregnancy
+                    can occur. The luteal phase comes after ovulation and lasts until the next menstruation, during which the uterus prepares for pregnancy. If fertilization doesn't happen, the cycle starts over.</p>
+            </div>
+            <div class="ditPic col-3">
+                <img src="cal.jpg" alt="">
+            </div>
+        </div>
+
+    </div> -->
+    <!-- End of Carousel -->
+
+
+    <!-- card -->
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="image-container">
+                        <div class="circle-frame">
+                            <img src="fundraising.png" alt="Person 1">
+                        </div>
+                        <div class="column-container">
+                            <p class="text">Who We Are</p>
+                            <p>A nonprofit that promotes healthy women by teaching them how to calculate their menstrual cycle, hygiene, coping with period discomforts and sharing of pads</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="image-container">
+                        <div class="circle-frame">
+                            <img src="sharing.png" alt="Person 2">
+                        </div>
+                        <div class="column-container">
+                            <p class="text">Why We Do This</p>
+                            <p>The rampant unwanted pregnancies, surprised periods and infected women due to bad hygiene, improper pad substitutes promted this initiative. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="image-container">
+                        <div class="circle-frame">
+                            <img src="event.png" alt="Person 3">
+                        </div>
+                        <div class="column-container">
+                            <p class="text">EVENTS</p>
+                            <p>We organize seminars, talks in schools, churches and orphanages in order to meet these women and pass accross this information and gifts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="image-container">
+                        <div class="circle-frame">
+                            <img src="gift.png" alt="Person 4">
+                        </div>
+                        <div class="column-container">
+                            <p class="text">One Girl One Pad</p>
+                            <p>This campaigne was implemented to ensure every needy girl gets a pad monthly to be ready for monthend hence ending period poverty </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of card -->
+    <!-- footer -->
+
+    <footer class="footer text-light">
+        <div class="container">
+            <div class="row">
+                <div class="container align-items-center justify-content-center col">
+                    <h1 class="logo">One Girl One Pad</h1>
+                   
+                </div>
+                <div class="col-md-3">
+                    <h3>Quick Links</h3>
+                    <ul class=" list-unstyled list_under">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="./ddy/goy.html">About us</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Contact Us</h3>
+                    <ul class="list-unstyled">
+                        <li>Small Mankon</li>
+                        <li>Bamenda, North West</li>
+                        <li>Phone: (237) 679-048-332</li>
+                        <li>Email: onegirlonepad88@gmail.com</li>
+                        <li>facebook: @One Girl One Pad</li>
+                        <li>instagram: onegirlonepad</li>
+                        <li>LinkedIn: One Girl One Pad</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p>&copy; Bits Valley 2024. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="./jquery-3.7.1.js"></script>
+    <!-- <script src="./bootstrap-5.1.3-dist/js/bootstrap.min.js"></script> -->
+    <script src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const myCarouselElement = document.querySelector('#myCarousel')
+        $(document).ready(() => {
+            $('.scrollspy-example').scrollspy({
+                target: '#navbar-example'
+            })
+        })
+
+        const carousel = new bootstrap.Carousel(myCarouselElement, {
+            interval: 2000,
+            touch: false
+        })
+    </script>
+
+</body>
+
+</html>
